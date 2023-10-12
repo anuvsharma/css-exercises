@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex; /*added*/
+  justify-content: space-between; /*looked at solution*/
+  padding: 8px; /*added*/
 }
 
 .profile-image {
@@ -45,4 +48,20 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex; /*added*/
+  margin: 0; /*looked at solution*/
+  padding: 0; /*looked at solution*/
+  gap: 16px; /*looked at solution*/
+}
+
+.right {
+  display: flex; /*added*/
+  align-items: center; /*looked at solution*/
+  gap: 16px; /*looked at solution*/
+}
+
+.left {
+  display: flex; /*added*/
+  align-items: center; /*looked at solution*/
+  gap: 16px; /*looked at solution*/
 }
