@@ -22,7 +22,9 @@ ul {
   list-style-type: none;
   display: flex; /*added*/
   /* justify-content: space-between; added but not needed*/
-  gap: 10px 50px; /*added*/
+  gap: 10px 20px; /*added*/
+  margin: 0; /*looked at solution*/
+  padding: 0; /*looked at solution*/
 }
 
 a {
